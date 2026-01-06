@@ -168,7 +168,7 @@ auth required coiote-totp.so
 ## Step 3 — Enroll a User
 
 ```bash
-sudo pam-totpctl init <username>
+sudo coiote-ctl init <username>
 ```
 
 During enrollment:
